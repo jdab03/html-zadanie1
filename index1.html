@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=
+    , initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <!-- ZMACZNIKI HTML -->
+            <!-- p to PARAGRAF/AKAPIT -->
+                <p>Treść <br/>paragrafu</p>
+
+            <!-- h (1-6) to NAGŁÓWKI -->
+                <h1>Nagłówek poziomu 1</h1>
+
+            <!-- a to LINKI -->
+                <a href="https://google.com" id="link-id" class="link">link do google</a> 
+
+            <br/>
+            
+            <!-- img to GRAFIKI, alt to TEKST ALTERNATYWNY, który wyświetli się, jeśli nasz obrazek się nie załaduje -->
+                <img src="peaches.jpg" alt="Bowser">
+
+            <!-- LISTY -->
+                <!-- UNORDERED LIST - NIENUMEROWANA, KOLEJNOŚĆ NIEWAŻNA -->
+                    <ul>
+                        <li>Kawa</li>
+                        <li>Herbata</li>
+                    </ul>
+                <!-- ORDERED LIST - NUMEROWANA, WAŻNA KOLEJNOŚĆ -->
+                    <ol>
+                        <li>Kawa</li>
+                        <li>Herbata</li>
+                    </ol>
+
+            <!-- BLOK KODU - gdy potrzebujemy znacznika, który nam uporządkuje treść, i nie mamy lepszego z przypisaną funkcją, to używamy div -->
+                    <div>To jest uniwersalny blok kodu HTML</div>
+
+
+            <div>
+                <p>to jest paragraf zagnieżdżony</p>
+            </div>
+
+        <!-- ZNACZNIKI SEMANTYCZNE HTML5; ich użycie determinuje, że ich zawartość będzie miała konkretną funkcję w strukturze tego kodu-->
+            
+            <!-- nav tworzy elementy nawigacyjne na stronie -->
+                <nav class="main navigation">
+                    <ul class="menu list">
+                        <li><a href="#about">o mnie</a> </li>
+                        <li><a href="#skills">umiejętności</a> </li>
+                        <li><a href="#portfolio">portfolio</a> </li>
+                        <li><a href="#contact">kontakt</a></li>
+                    </ul>
+                </nav>
+       
+            <!-- section pozwala dzielić stronę na sekcje-->
+                <section>
+                    <h2>Najnowsze artykuły</h2>
+                    
+                    <!-- article obejmuje bloki spójne tematycznie, pewna zamknięta całość -->
+                    <article>
+                        <h3>Programiści poszukiwani</h3>
+                        <p>Zawód przyszłości</p>
+                    </article>
+
+                    <article>
+                        <!-- header może być użyty jako nagłówek artykułu, lub nagłowek całej strony (i większych i mniejszych elementów) zawiera jeden nagłówek właściwy (h1, h2, ..., h6) i często jeszcze dodatkową treść, informację -->
+                        <header>
+                            <h3>Front End Developer</h3>
+                            <p>Zawód przyszłości</p>
+                        </header>
+                        <p>Rośnie brak programistów</p>
+                    </article>
+
+                </section>
+
+            <!-- aside oddziela duże bloki strony: zasadniczą treść striny od elementów pobocznych (których zmiana nie wpływa na zasadniczą treść strony); gdyby wszystko w asidzie zostało zmienione, to zasadnicza część strony by się nie zmieniła, są to np. banery reklamowe -->
+                <aside>
+                    <img src="peaches.jpg" alt="Reklama" />
+                </aside>
+
+            <!-- footer czyli stopka, można użyć jako podsumowanie dokumentu, może też być podsumowaniem mniejszego bloku strony -->
+                <footer>
+                    <p>Opublikowane przez: Jan Nowak</p>
+                    <p>Kontakt: <a href="mailto:jan@nowak.com">jan@nowak.com</a></p>
+                </footer>
+
+        <img src="html5-template.jpg" alt="html5 template"/>
+        <br/>
+        <p><a href="https://html.spec.whatwg.org/multipage/">standard języka HTML</a></p> 
+    </body>
+    </html>
